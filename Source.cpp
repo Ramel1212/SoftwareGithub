@@ -105,22 +105,7 @@ void print() {
 		else {
 			int j = front;
 
-			// using while to print when rear < front
 			
-			//while (j!=rear+1) {
-			//	if (j<maxsize) {
-			//		cout << CQ[j];
-			//		j++;
-			//	}
-			//	else {
-			//		j = 0;
-			//		cout << CQ[j];
-			//		j++;
-			//	}		
-			//}//end of while
-			//cout << endl;
-
-			// using for loop to print when rear < front
 
 			for (int i = 0;i < numOfElement();i++) // you can use i<maxsize-front+rear+1
 			{
